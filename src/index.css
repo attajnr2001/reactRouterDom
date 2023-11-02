@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* App */
+.App{
+  width: 90%;
+  margin: auto;
+}
+
+
+/* navbar */
+.navbar{
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  justify-content: space-between;
+}
+
+.navbar .links{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+} 
+
+.navbar .links .link{
+  color: #fff;
+  background: #00315ec7;
+  padding: .3em 1.2em;
+  border-radius: .3em;
+  transition: .3s all;
+}
+
+.navbar .links .active{
+  background-color: #00315e;
+}
+
+/* home */
+.home, .about, .help, .careerLayout{
+  text-align: center;
+  margin-top: 2em;
+}
+
+.home h2, .about h2, .help h2, .careerLayout h2{
+  color: #00305e;
+}
+
+.help .links{
+  margin: 1em 0;
+}
+
+.help .links a{
+  margin: 0 .3em;
+  color: #fff;
+  font-weight: bold;
+  background: #00315ec7;
+  padding: .3em 1.2em;
+  border-radius: .3em;
+  transition: .3s all;
+}
+
+.help .links .active{
+  background-color: #00315e;
+}
+
+.faq{
+  text-align: left;
+}
+
+.faq .each{
+  margin: 1em 0;
+  background: #dad5d5a2;
+  padding: 1em;
+  border-radius: .3em;
+}
+
+.faq .each .question{
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+.careers{
+  margin-top: 1em;
+  text-align: left;
+}
+
+.careers a{
+  color: #333;
+}
+
+.careers .career{
+  background: #dad5d5a2;
+  margin: .4em 0;
+  padding: 1em;
+  border-radius: .3em;
+  transition: .3s all;
+}
+
+.careers .career:hover{
+  background: #dad5d5de;
+}
+
+.careers .career p{
+  font-weight: bold;
+}
+
+.careers .career span{
+  font-size: smaller;
+}
+
+._career{
+  text-align: left;
+}
+
+._career h2{
+  margin: 1em 0;
+}
+._career .details{
+  background: #dad5d5de;
+  padding: 1em;
+  border-radius: .3em;
+} 
+._career .details .title{
+  font-weight: 600;
+  margin-bottom: .4em;
+}
+
+._career .details .location{
+  font-weight: 600;
+}
+._career .details .description{
+  margin: 1em 0;
+}
+
+._career .details a{
+  background: #00315ec7;
+  color: #fff;
+  padding: .3em 1.3em;
+  border-radius: .3em;
+  transition: .3s all;
+}
+
+._career .details a:hover{
+  background: #00315efa;
+
+}
+
+.breadCrumbs > *{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.breadCrumbs .crumb:after{
+  content: ">";
+  margin-left: 5px;
+}
+
+.breadCrumbs .crumb:last-child:after{
+  display: none;
+}
