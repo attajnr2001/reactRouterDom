@@ -5,7 +5,7 @@
 }
 
 :root {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #f2f2f2;
   color: #333;
 }
@@ -28,6 +28,10 @@ a{
   align-items: center;
   border-bottom: 1px solid #333;
   justify-content: space-between;
+}
+
+.navbar .title{
+  font-family: "Pacifico";
 }
 
 .navbar .links{
@@ -170,4 +174,42 @@ a{
 
 .breadCrumbs .crumb:last-child:after{
   display: none;
+}
+
+/* contact */
+
+.contact{
+  text-align: left;
+}
+
+.contact label{
+  display: block;
+  margin: 1em 0;
+}
+
+.contact label input, textarea{
+  display: block;
+  width: 50%;
+  border: none;
+  outline: none;
+  padding: .3em;
+  box-shadow: 0 0 1px grey;
+  border-radius: .3em;
+  margin: .21em 0;
+  font-size: 1em;
+  font-family: "poppins";
+
+}
+
+.contact textarea{
+  height: 100px;
+}
+
+.contact button{
+  border: none;
+  outline: none;
+  padding: .5em 1.3em;
+  background: #00305e;
+  color: #fff;
+  border-radius: .3em;
 }

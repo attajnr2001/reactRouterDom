@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar">
-      <h2 className="title">QFINDER</h2>
+      <h3 className="title">QFINDER</h3>
       <div className="links">
         <NavLink className="link" to="">
           Home
