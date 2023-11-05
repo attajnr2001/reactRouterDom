@@ -16,7 +16,7 @@ function Career() {
           quibusdam quidem! At deserunt quae perspiciatis maxime?
         </p>
         <Link>Apply</Link>
-      </div>
+      </div> 
     </div>
   );
 }
